@@ -2,3 +2,4 @@ node_modules
 vendor
 wp-env-home/
 .wp-env.override.json
+test-results
