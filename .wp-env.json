@@ -4,6 +4,9 @@
 	"port": 80,
 	"testsPort": 81,
 	"plugins": [
-		
-	]
+		"./plugincode"
+	],
+	"config" : {
+
+	}
 }

@@ -13,7 +13,8 @@
         "test": "npx playwright test",
         "up": "WP_ENV_HOME=wp-env-home wp-env start",
         "wp-env": "WP_ENV_HOME=wp-env-home wp-env",
-        "cli": "WP_ENV_HOME=wp-env-home wp-env run cli bash"
+        "cli": "WP_ENV_HOME=wp-env-home wp-env run cli bash",
+        "bash": "WP_ENV_HOME=wp-env-home wp-env run wordpress bash"
     },
     "config": {}
 }
