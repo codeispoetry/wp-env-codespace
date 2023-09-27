@@ -1,16 +1,16 @@
 const { devices } = require('@playwright/test');
 
-const TEST_URL = process.env.TEST_URL || 'http://localhost:8888';
+const TEST_URL = process.env.TEST_URL || 'http://localhost:9101';
 
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
 const config = {
-	testDir: 'plugins/',
+	testDir: 'tests/',
 	testMatch: /.*.js/,
-	timeout: 120 * 1000,
+	timeout: 10 * 1000,
 	expect: {
-		timeout: 60 * 1000,
+		timeout: 10 * 1000,
 	},
 	fullyParallel: false,
 	forbidOnly: !!process.env.CI,

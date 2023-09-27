@@ -1,0 +1,9 @@
+{
+	"core": null,
+	"phpVersion": "8.0",
+	"port": 9100,
+	"testsPort": 9101,
+	"plugins": [
+		"."
+	]
+}
