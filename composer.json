@@ -1,0 +1,26 @@
+{
+    "name": "codeispoetry/wp-env-codespace",
+    "type": "wordpress",
+    "license": "GPL-2.0-or-later",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.24",
+        "yoast/phpunit-polyfills": "^1.0.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "wp-coding-standards/wpcs" : "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "higidi/composer-phpcodesniffer-standards-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "php-lint": [
+            "phpcs"
+        ],
+        "php-fix": [
+            "phpcbf"
+        ]
+    }
+}

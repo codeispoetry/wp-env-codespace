@@ -1,0 +1,15 @@
+{
+    "name": "wp-env-codespace",
+    "dependencies": {
+        "playwright": "^1.38.1"
+    },
+    "devDependencies": {
+        "@wordpress/env": "^8.8.0",
+        "@wordpress/eslint-plugin": "^15.0.0",
+        "@wordpress/scripts": "^26.1.0",
+        "eslint-plugin-prettier": "^5.0.0",
+        "sass": "^1.60.0"
+    },
+    "scripts": {},
+    "config": {}
+}
