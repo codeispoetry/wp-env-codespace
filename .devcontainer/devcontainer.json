@@ -4,6 +4,8 @@
     "ghcr.io/devcontainers/features/node:1": {},
     "ghcr.io/devcontainers/features/php:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
+
   
 }
