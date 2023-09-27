@@ -2,7 +2,20 @@
     "name": "wp-env-codespace",
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
     "features": {
-        "ghcr.io/devcontainers/features/php:1": {},
-        "ghcr.io/devcontainers/features/node:1": {} 
-    }
+        "ghcr.io/devcontainers/features/php:1": {
+              "version": "8.0"
+        },
+        "ghcr.io/devcontainers/features/node:1": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "customizations": {
+		"vscode": {
+			"extensions": [
+				"yogensia.searchwpdocs",
+				"valeryanm.vscode-phpsab",
+				"johnbillion.vscode-wordpress-hooks",
+				"shevaua.phpcs"
+			]
+		}
+	}
 }
