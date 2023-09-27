@@ -1,4 +1,7 @@
 {
   "image": "mcr.microsoft.com/vscode/devcontainers/php:8.0",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
   "KILLpostCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
