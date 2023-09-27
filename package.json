@@ -12,11 +12,9 @@
     },
     "scripts": {
         "test": "npx playwright test",
-        "up": "WP_ENV_HOME=wp-env-home wp-env start --xdebug=profile,trace,debug,coverage",
+        "up": "WP_ENV_HOME=wp-env-home wp-env start",
         "wp-env": "WP_ENV_HOME=wp-env-home wp-env",
         "cli": "WP_ENV_HOME=wp-env-home wp-env run cli bash",
-        "phpunit": "npm run wp-env run tests-cli ~/.composer/vendor/bin/phpunit -- -c wp-content/plugins/ionos-security/tests/phpunit/phpunit.xml",
-        "test-coverage": "npx wp-env run tests-cli ~/.composer/vendor/bin/phpunit -- -c wp-content/plugins/ionos-security/tests/phpunit/phpunit.xml --coverage-html wp-content/plugins/ionos-security/tests/phpunit/reports/"
     },
     "config": {}
 }
