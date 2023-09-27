@@ -1,11 +1,4 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers/features/php:1": {},
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  },
-  "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
-
-  
+  "image": "mcr.microsoft.com/vscode/devcontainers/php:8.0",
+  "KILLpostCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
