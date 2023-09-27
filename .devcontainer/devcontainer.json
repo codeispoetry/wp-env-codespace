@@ -1,7 +1,8 @@
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/php:8.0",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  }
-  "KILLpostCreateCommand": "bash .devcontainer/postCreateCommand.sh"
+    "name": "wp-env-codespace",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
+    "features": {
+        "ghcr.io/devcontainers/features/php:1": {},
+        "ghcr.io/devcontainers/features/node:1": {} 
+    }
 }
