@@ -1,5 +1,5 @@
-node_modules
-vendor
+node_modules/
+vendor/
 wp-env-home/
+test-results/
 .wp-env.override.json
-test-results
