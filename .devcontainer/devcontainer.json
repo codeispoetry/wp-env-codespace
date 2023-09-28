@@ -15,5 +15,6 @@
 				"shevaua.phpcs"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "./.devcontainer postCreateCommand.sh"
 }

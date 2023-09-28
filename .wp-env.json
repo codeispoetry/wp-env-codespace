@@ -5,8 +5,5 @@
 	"testsPort": 81,
 	"plugins": [
 		"./plugincode"
-	],
-	"config" : {
-
-	}
+	]
 }
