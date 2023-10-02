@@ -25,7 +25,7 @@ add_action( 'admin_notices', 'wp_codespace_notices' );
  * Register and enqueue a stylesheet in admin.
  */
 function wp_codespace_enqueue_admin_style() {
-		wp_register_style( 'wp_codespace_admin_style', plugin_dir_url( __FILE__ ) . 'styles.css', [], false, '1.0.0' );
+		wp_register_style( 'wp_codespace_admin_style', plugin_dir_url( __FILE__ ) . 'styles.css', [], '1.0.0', 'all' );
 		wp_enqueue_style( 'wp_codespace_admin_style' );
 }
 add_action( 'admin_enqueue_scripts', 'wp_codespace_enqueue_admin_style' );
